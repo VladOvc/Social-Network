@@ -1,0 +1,34 @@
+.header {
+ width: 100%;
+ height: 200px;
+ background-position: center center;
+ background-size: cover;
+ margin-bottom: 15px;
+}
+.avatar img{
+ width: 100px;
+ height: 100px;
+ background-size: cover;
+ margin-left: 15px;
+ margin-right: 25px;
+}
+.avatar__info__box{
+ display: flex;
+ margin: 20px 0;
+}
+.item{
+ color: #8D929A;
+}
+.item a{
+ color: #8D929A;
+}
+.item a:hover{
+ color: #fff;
+}
+.info_name{
+ margin-bottom: 15px;
+ font-size: 20px;
+}
+span {
+ color: #8D929A;
+}

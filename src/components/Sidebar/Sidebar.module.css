@@ -1,0 +1,26 @@
+.sidebar{
+ grid-area: sidebar;
+ background-color: #252629;
+ padding: 15px 0 15px 0;
+}
+.menu{
+ margin-bottom: 20px;
+}
+.item{
+ cursor: pointer;
+ color: #8D929A;
+ display: block;
+ padding: 6px 15px;
+ transition: all .3s;
+}
+.active{
+ color: #D3B747;
+}
+.item.active:hover{
+ color: #D3B747;
+ background-color: transparent;
+}
+.item:hover{
+ color: #0039cb;
+ background-color: #fff;
+}

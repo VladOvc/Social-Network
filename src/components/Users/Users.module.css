@@ -1,0 +1,36 @@
+.users{
+    padding: 50px;
+}
+.users_item{
+    width: 580px;
+    display: flex;
+    margin: 0 15px 40px;
+}
+.users_photo{
+    margin-right: 30px;
+    width: 70px;
+}
+.users_photo img{
+    min-width: 70px;
+    max-width: 70px;
+    min-height: 70px;
+    max-height: 70px;
+}
+.users_content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+    padding: 5px;
+}
+.selectedPage{
+    font-weight: bold;
+}
+.users span {
+    margin: 0 5px;
+    cursor: pointer;
+}
+.number__page{
+    color: #fff;
+    margin-bottom: 20px;
+}
